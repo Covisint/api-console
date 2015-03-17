@@ -12,18 +12,21 @@
 }
 
 .tab-list {
-  right: 12px;
+  right: 9px;
   position: relative;
-  bottom: -1px;
+  position: absolute;
+  bottom: -1px; 
 
   display: flex;
+  display: -webkit-flex;
   flex-grow: 1;
   flex-flow: row-reverse;
   align-self: flex-end;
   padding-left: 16px;
+  float:right;
 
   @media only screen and (min-width: $medium-screen) {
-    padding-left: 24px;
+    padding-left: 24px; 
   }
 }
 
@@ -100,7 +103,7 @@
   -ms-transform: perspective(45px) rotateX(30deg);
   width: 108px;
   position: absolute;
-  margin-left: -40px;
+  right: 0;
   z-index: -1;
   top: 0px;
 }
@@ -116,7 +119,7 @@
   -ms-transform: perspective(45px) rotateX(30deg);
   width: 108px;
   position: absolute;
-  margin-left: -40px;
+  right: 0;
   z-index: -1;
   top: 0px;
 }
@@ -132,7 +135,7 @@
   -ms-transform: perspective(45px) rotateX(30deg);
   width: 108px;
   position: absolute;
-  margin-left: -28px;
+  right: 0;
   z-index: -1;
   top: 0px;
 }
@@ -148,7 +151,7 @@
   -ms-transform: perspective(45px) rotateX(30deg);
   width: 108px;
   position: absolute;
-  margin-left: -36px;
+  right: 0;
   z-index: -1;
   top: 0px;
 }
@@ -164,7 +167,7 @@
   -ms-transform: perspective(45px) rotateX(30deg);
   width: 108px;
   position: absolute;
-  margin-left: -32px;
+  right: 0;
   z-index: -1;
   top: 0px;
 }
@@ -180,7 +183,7 @@
   -ms-transform: perspective(45px) rotateX(30deg);
   width: 108px;
   position: absolute;
-  margin-left: -19px;
+  right: 0;
   z-index: -1;
   top: 0px;
 }
@@ -196,7 +199,7 @@
   -ms-transform: perspective(45px) rotateX(30deg);
   width: 108px;
   position: absolute;
-  margin-left: -34px;
+  right: 0;
   z-index: -1;
   top: 0px;
 }
@@ -212,7 +215,7 @@
   -ms-transform: perspective(45px) rotateX(30deg);
   width: 108px;
   position: absolute;
-  margin-left: -21px;
+  right: 0;
   z-index: -1;
   top: 0px;
 }
@@ -228,7 +231,7 @@
   -ms-transform: perspective(45px) rotateX(30deg);
   width: 108px;
   position: absolute;
-  margin-left: -31px;
+  right: 0;
   z-index: -1;
   top: 0px;
 }
